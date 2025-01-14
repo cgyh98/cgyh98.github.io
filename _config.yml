@@ -1,26 +1,12 @@
 title: <p align="center"> Gabriela Yaulli </p>
 logo: "/images/linkedinphoto.png?raw=true" # your photo (or logo) here
 
-#description: > # your text below (remove <br> elements if you don't need line breaks)
-#  First description 
-#  <br><br>
-#  Second description 
-#  <br><br>
-#  <a href="https://www.linkedin.com/in/gabriela-yaulli-herrera/">View My LinkedIn Profile</a> 
-
-description:
-  <p align="center">
-  <a href="pdf/CV_GabrielaYaulli.pdf">Resume</a> |
-  <a href="https://www.linkedin.com/in/gabriela-yaulli-herrera/">LinkedIn</a> |
-  #<a href="https://github.com/chriskhanhtran">GitHub</a>
-  </p>
-  
-  <p align="justify">
-  I am pursing MS degree in AI for Architecture & the Built Environment at IAAC, Barcelona.
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  First description 
   <br><br>
-  I am currently a Machine Learning Scientist at Flipp.
+  Second description 
   <br><br>
-  </p>
+  <a href="https://www.linkedin.com/in/gabriela-yaulli-herrera/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
