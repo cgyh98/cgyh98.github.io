@@ -16,7 +16,10 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 [CCAI Summer School 2024 Recap](https://www.climatechange.ai/blog/2024-12-04-summer-school-24-in-person)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 <br>
-![alt-text-1](images/ccai_1.jpeg "title-1") ![alt-text-2](images/ccai_2.jpeg "title-2")
+<p float="left">
+  <img src="images/ccai_1.jpeg" width="50%" />
+  <img src="images/ccai_2.jpeg" width="50%" /> 
+</p>
 <br>
 https://www.youtube.com/watch?v=gDrTO2PZ7T0
 
