@@ -13,12 +13,12 @@
 **Impact**: Created scalable methodology for urban poverty mapping and influenced regional policy discussions.
 
 #### Poster presented at the AI Latam SumMIT 2020, Boston MA
-<br>
 <div align="center">
   <a href="/pdf/AIsuMIT_Poster_A1.pdf">
     <img src="images/AIsuMIT_Poster_image.jpg?raw=true" width="300"/>
   </a>
 </div>
+<br>
 
 ---
 
@@ -27,7 +27,6 @@
 ***Climate Change AI, Summer School 2024 @ Mila - Quebec AI Institute***
 <br>
 <div style="text-align: justify">During one week, we worked on developing an automated pipeline for monitoring glacier surface area evolution in Peruvian Andes. Our team designed and implemented a prototype for an end-to-end system combining satellite imagery analysis with ML to generate annual area estimates for regional glaciers. This project was developed within interdisciplinary team framework, incorporating responsible AI principles and climate impact considerations.</div>
-<br>
 
 **Technical skills:** Python, remote sensing data processing, data visualization.
 <br>
@@ -38,11 +37,11 @@
 <br>
 <div align="center">
   <p float="left">
-    <img src="images/ccai_1.jpeg" width="35%" />
-    <img src="images/ccai_2.jpeg" width="35%" /> 
+    <img src="images/ccai_1.jpeg" width="40%" />
+    <img src="images/ccai_2.jpeg" width="40%" /> 
   </p>
 </div>
-<br>
+
 As part of the solution, we developed an animation that visualizes temporal changes and future projections for the glaciers under study:
 <br>
 
@@ -51,12 +50,12 @@ As part of the solution, we developed an animation that visualizes temporal chan
 <br>
 
 ---
+
 ### Data driven Approach for Road Safety in Nagpur, India
 
 ***FruitPunch AI, AI for Road Safety Challenge***
 <br>
 <div style="text-align: justify">Our team developed interactive visualization tools that enabled stakeholders to identify new insights about road safety in Nagpur, India. While other teams focused on statistical analysis, our tool's interactive nature allowed for rapid identification of spatial and temporal patterns. By incorporating data about hospitals and schools and aggregating everything with spatial indexes, we helped identify risk-prone areas that required immediate attention. </div>
-<br>
 
 **Technical skills:** Python, Interactive Data Visualization with Deck.gl, Spatial Indexing, GIS. 
 <br>
@@ -66,7 +65,7 @@ As part of the solution, we developed an animation that visualizes temporal chan
 #### Interactive Dashboard
 
 <div align="center">
-    <img src="images/nagpur.png?raw=true" width="350"/>
+    <img src="images/nagpur.png?raw=true" width="400"/>
 </div>
 
 #### Final Presentation
@@ -90,11 +89,9 @@ As part of the solution, we developed an animation that visualizes temporal chan
 **Impact:** Established methodology for understanding tourist movement patterns using network data.
 <br>
 
-####Mobility Patterns in Andorra captured over a full day
+#### Mobility Patterns in Andorra captured over a full day:
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/T52diroghDc/0.jpg)](https://www.youtube.com/watch?v=T52diroghDc "Mobility Patterns in Andorra captured over a full day.")
-
-<br>
 
 Shared my experience at the International Forum on **“Smart Cities: Technologies and narratives to create sustainable cities”**
 
