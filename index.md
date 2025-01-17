@@ -33,7 +33,7 @@
 </div>
 <br>
 - We developed a visualization for...
-<br>
+
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/gDrTO2PZ7T0/0.jpg)](https://www.youtube.com/watch?v=gDrTO2PZ7T0 "Projections for the Quelccaya Glacier - OGGM ssp126")
 <br>
 
