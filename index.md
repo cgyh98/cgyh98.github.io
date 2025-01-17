@@ -9,7 +9,9 @@
 <br>
 Poster presented at the AI Latam SumMIT 2020, Boston MA
 <br>
-[<img src="images/AIsuMIT_Poster_image.jpg?raw=true" height="300"/>](/pdf/AIsuMIT_Poster_A1.pdf)
+<a href="/pdf/AIsuMIT_Poster_A1.pdf">
+  <img src="images/AIsuMIT_Poster_image.jpg?raw=true" width="300"/>
+</a>
 
 ---
 
