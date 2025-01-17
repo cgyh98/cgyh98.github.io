@@ -3,11 +3,15 @@ logo: "/images/linkedinphoto.png?raw=true" # your photo (or logo) here
 
 description:  # your text below (remove <br> elements if you don't need line breaks)
   <p align="center">
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
+  <a href="pdf/CV_GabrielaYaulli.pdf">Resume</a> |
   <a href="https://www.linkedin.com/in/gabriela-yaulli-herrera/">LinkedIn</a>
+  </p>
+  
+  <p align="justify">
+  Machine Learning Scientist @ Flipp. Passionate about AI for Good, Maps and Design.
+  <br><br>
+  I am pursing MS degree in AI for the Built Environment at IAAC.
+  <br><br>
   </p>
   
 remote_theme: pages-themes/minimal@v0.2.0
