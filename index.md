@@ -8,6 +8,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 [Poster presented at the AI Latam SumMIT 2020, Boston MA](/pdf/sample_presentation.pdf)
 <br>
+[![IMAGE ALT TEXT](images/AIsuMIT_Poster_image.jpg?raw=true)](/pdf/sample_presentation.pdf)
 
 ---
 
