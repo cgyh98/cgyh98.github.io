@@ -1,12 +1,14 @@
 title: <p align="center"> Gabriela Yaulli </p>
 logo: "/images/linkedinphoto.png?raw=true" # your photo (or logo) here
 
-description: > # your text below (remove <br> elements if you don't need line breaks)
+description:  # your text below (remove <br> elements if you don't need line breaks)
+  <p align="center">
   First description 
   <br><br>
   Second description 
   <br><br>
-  <a href="https://www.linkedin.com/in/gabriela-yaulli-herrera/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/gabriela-yaulli-herrera/">LinkedIn</a>
+  </p>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
