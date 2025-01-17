@@ -4,11 +4,10 @@
 
 ### Mapping Poverty in Lima with Machine Learning and Satellite Imagery 
 
-<br>
 <div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
-<br>
-*** Poster presented at the AI Latam SumMIT 2020, Boston MA ***
-<br>
+
+#### Poster presented at the AI Latam SumMIT 2020, Boston MA
+
 <div align="center">
   <a href="/pdf/AIsuMIT_Poster_A1.pdf">
     <img src="images/AIsuMIT_Poster_image.jpg?raw=true" width="300"/>
