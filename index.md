@@ -33,6 +33,7 @@
 </div>
 <br>
 - We developed a visualization for...
+<br>
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/gDrTO2PZ7T0/0.jpg)](https://www.youtube.com/watch?v=gDrTO2PZ7T0 "Projections for the Quelccaya Glacier - OGGM ssp126")
 <br>
@@ -67,11 +68,13 @@ https://www.youtube.com/watch?v=FNRKcpUs7Rc
 <br>
 <div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
 <br>
+
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/T52diroghDc/0.jpg)]([https://youtu.be/FD9A25ZLFUQ?t=2237](https://www.youtube.com/watch?v=T52diroghDc) "Mobility Patterns in Andorra captured over a full day.")
+
 <br>
 - Speaker at International Forum on “Smart Cities: Technologies and narratives to create sustainable cities”
 <br>
-<center><img src="images/dummy_thumbnail.jpg"></center>
+<center><img src="images/smartcities.jpeg"></center>
 <br>
 
 ---
