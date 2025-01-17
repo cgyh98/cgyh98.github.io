@@ -18,8 +18,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 [CCAI Summer School 2024 Recap](https://www.climatechange.ai/blog/2024-12-04-summer-school-24-in-person)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+![alt-text-1](ccai_1.jpeg "title-1") ![alt-text-2](ccai_2.jpeg "title-2")
+
 https://www.youtube.com/watch?v=gDrTO2PZ7T0
-photos:
 
 ---
 
@@ -30,11 +31,12 @@ Internship “Living Lab Andorra”
 
 ### AI for Road Safety 
 
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/FD9A25ZLFUQ/0.jpg)](https://youtu.be/FD9A25ZLFUQ?t=2237 "Final Presentation AI for Road Safety")
+[FruitPunch AI Blog Post featuring our solution](https://www.fruitpunch.ai/blog/ai-and-visualisations-a-data-driven-all-rounded-approach-for-road-safety)
+
 Nagpur, India
 https://www.youtube.com/watch?v=FNRKcpUs7Rc
-https://www.fruitpunch.ai/blog/ai-and-visualisations-a-data-driven-all-rounded-approach-for-road-safety
-https://www.youtube.com/watch?v=FD9A25ZLFUQ
-from minute 
+
 
 ### Category Name 2
 
