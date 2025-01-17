@@ -5,7 +5,7 @@
 ### Mapping Poverty in Lima with Machine Learning and Satellite Imagery 
 
 <div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
-
+<br>
 #### Poster presented at the AI Latam SumMIT 2020, Boston MA
 
 <div align="center">
@@ -16,14 +16,18 @@
 
 ---
 
-### Climate Change AI, Summer School 2024 @ Mila - Quebec AI Institute
+### Monitoring the Evolution of Glaciers surface in the Peruvian Andes
 
-[CCAI Summer School 2024 Recap](https://www.climatechange.ai/blog/2024-12-04-summer-school-24-in-person)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+***Climate Change AI, Summer School 2024 @ Mila - Quebec AI Institute***
+<br>
+<div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
+<br>
+
+- [CCAI Summer School 2024 Recap](https://www.climatechange.ai/blog/2024-12-04-summer-school-24-in-person)
 <br>
 <p float="left">
-  <img src="images/ccai_1.jpeg" width="50%" />
-  <img src="images/ccai_2.jpeg" width="50%" /> 
+  <img src="images/ccai_1.jpeg" width="25%" />
+  <img src="images/ccai_2.jpeg" width="25%" /> 
 </p>
 <br>
 https://www.youtube.com/watch?v=gDrTO2PZ7T0
