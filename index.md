@@ -72,9 +72,12 @@ https://www.youtube.com/watch?v=FNRKcpUs7Rc
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/T52diroghDc/0.jpg)]([https://youtu.be/FD9A25ZLFUQ?t=2237](https://www.youtube.com/watch?v=T52diroghDc) "Mobility Patterns in Andorra captured over a full day.")
 
 <br>
+
 - Speaker at International Forum on “Smart Cities: Technologies and narratives to create sustainable cities”
+
 <br>
-<center><img src="images/smartcities.jpeg"></center>
-<br>
+<div align="center">
+    <img src="images/smartcities.jpeg?raw=true" width="300"/>
+</div>
 
 ---
