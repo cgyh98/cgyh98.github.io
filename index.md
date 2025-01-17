@@ -4,13 +4,12 @@
 
 ### Mapping Poverty in Lima with Machine Learning and Satellite Imagery 
 
-My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
 <br>
-[Poster presented at the AI Latam SumMIT 2020, Boston MA](/pdf/sample_presentation.pdf)
+<div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
 <br>
-[![IMAGE ALT TEXT](images/AIsuMIT_Poster_image.jpg?raw=true | width=300)](/pdf/sample_presentation.pdf)
-
-[<img src="images/AIsuMIT_Poster_image.jpg?raw=true" height="200"/>](/pdf/sample_presentation.pdf)
+[***Poster presented at the AI Latam SumMIT 2020, Boston MA***](/pdf/AIsuMIT_Poster_A1 (2).pdf)
+<br>
+[<img src="images/AIsuMIT_Poster_image.jpg?raw=true" height="300"/>](/pdf/AIsuMIT_Poster_A1 (2).pdf)
 
 ---
 
