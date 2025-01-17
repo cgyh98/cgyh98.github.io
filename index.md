@@ -81,7 +81,7 @@ As part of the solution, we developed an animation that visualizes temporal chan
 
 ---
 
-### Leveraging telecom data to Study tourists mobility patterns in Andorra 
+### Leveraging Telecom Data to Study Mobility Patterns in Andorra 
 ***Internship “Living Lab Andorra”***
 <br>
 <div style="text-align: justify">During the internship, I developed a comprehensive mobility analysis for tourist behavior using RNC (Radio Network Controller) data. First, I designed and implemented data processing pipeline to construct user trajectories from network signals. Then, I created a trajectory visualization framework and engineered sub-trajectory clustering model to identify and analyze frequent tourist routes, enabling data-driven tourism insights.</div>
@@ -97,7 +97,7 @@ As part of the solution, we developed an animation that visualizes temporal chan
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/T52diroghDc/0.jpg)](https://www.youtube.com/watch?v=T52diroghDc "Mobility Patterns in Andorra captured over a full day.")
 
-Shared my experience at the International Forum on ***“Smart Cities: Technologies and narratives to create sustainable cities”***
+Shared my experience at the ***International Forum on “Smart Cities: Technologies and narratives to create sustainable cities”***
 
 <div align="center">
     <img src="images/smartcities.jpeg?raw=true" width="350"/>
