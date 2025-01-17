@@ -5,7 +5,6 @@
 ### Mapping Poverty in Lima with Machine Learning and Satellite Imagery 
 
 <div style="text-align: justify">Developed a novel methodology combining satellite imagery analysis with AI to map socioeconomic patterns across Lima Metropolitana. I developed and implemented a custom computer vision pipeline using Convolutional Neural Network (CNNs) for feature extraction and SVM classifiers. This project established a new framework for AI-driven urban analysis and efficient remote sensing data processing through Python-based geoprocessing tools.</div>
-<br>
 
 **Technical skills:** Python, CNNs, SVM, GIS, remote sensing data processing.
 <br>
@@ -62,11 +61,12 @@ As part of the solution, we developed an animation that visualizes temporal chan
 
 **Impact:** Showcased how spatial indexing and interactive data visualization can be leveraged to address critical urban challenges.
 
-#### Interactive Dashboard
+#### Interactive Dashboard Screenshot:
 
 <div align="center">
-    <img src="images/nagpur.png?raw=true" width="400"/>
+    <img src="images/nagpur.png?raw=true" width="500"/>
 </div>
+<br>
 
 #### Final Presentation
 
@@ -82,6 +82,7 @@ As part of the solution, we developed an animation that visualizes temporal chan
 ***Internship “Living Lab Andorra”***
 <br>
 <div style="text-align: justify">During the internship, I developed a comprehensive mobility analysis for tourist behavior using RNC (Radio Network Controller) data. First, I designed and implemented data processing pipeline to construct user trajectories from network signals. Then, I created a trajectory visualization framework and engineered sub-trajectory clustering model to identify and analyze frequent tourist routes, enabling data-driven tourism insights.</div>
+<br>
 
 **Technical skills:** Mobility analysis, clustering algorithms, RNC data processing, spatial visualization.
 <br>
