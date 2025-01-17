@@ -10,6 +10,8 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <br>
 [![IMAGE ALT TEXT](images/AIsuMIT_Poster_image.jpg?raw=true | width=300)](/pdf/sample_presentation.pdf)
 
+[<img src="images/AIsuMIT_Poster_image.jpg?raw=true" height="200"/>](/pdf/sample_presentation.pdf)
+
 ---
 
 ### Climate Change AI, Summer School 2024 @ Mila - Quebec AI Institute
