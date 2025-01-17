@@ -55,15 +55,19 @@ As part of the solution, we developed an animation that visualizes temporal chan
 
 ***FruitPunch AI, AI for Road Safety Challenge***
 <br>
-<div style="text-align: justify">Over one week... First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
+<div style="text-align: justify">Our team developed interactive visualization tools that enabled stakeholders to identify new insights about road safety in Nagpur, India. While other teams focused on statistical analysis, our tool's interactive nature allowed for rapid identification of spatial and temporal patterns. By incorporating data about hospitals and schools and aggregating everything with spatial indexes, we helped identify risk-prone areas that required immediate attention. </div>
 <br>
+
+**Technical skills:** Python, Interactive Data Visualization with Deck.gl, Spatial Indexing, GIS. 
+<br>
+
+**Impact:** Showcased how spatial indexing and interactive data visualization can be leveraged to address critical urban challenges.
+
+#### Interactive Dashboard
+
 <div align="center">
-  <p float="left">
-    <img src="images/ccai_1.jpeg" width="40%" />
-    <img src="images/ccai_2.jpeg" width="40%" /> 
-  </p>
+    <img src="images/nagpur.png?raw=true" width="350"/>
 </div>
-<br>
 
 #### Final Presentation
 
@@ -79,7 +83,6 @@ As part of the solution, we developed an animation that visualizes temporal chan
 ***Internship “Living Lab Andorra”***
 <br>
 <div style="text-align: justify">During the internship, I developed a comprehensive mobility analysis for tourist behavior using RNC (Radio Network Controller) data. First, I designed and implemented data processing pipeline to construct user trajectories from network signals. Then, I created a trajectory visualization framework and engineered sub-trajectory clustering model to identify and analyze frequent tourist routes, enabling data-driven tourism insights.</div>
-<br>
 
 **Technical skills:** Mobility analysis, clustering algorithms, RNC data processing, spatial visualization.
 <br>
@@ -87,13 +90,14 @@ As part of the solution, we developed an animation that visualizes temporal chan
 **Impact:** Established methodology for understanding tourist movement patterns using network data.
 <br>
 
+####Mobility Patterns in Andorra captured over a full day
+
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/T52diroghDc/0.jpg)](https://www.youtube.com/watch?v=T52diroghDc "Mobility Patterns in Andorra captured over a full day.")
 
 <br>
 
-- Shared my experience at the International Forum on **“Smart Cities: Technologies and narratives to create sustainable cities”**
+Shared my experience at the International Forum on **“Smart Cities: Technologies and narratives to create sustainable cities”**
 
-<br>
 <div align="center">
     <img src="images/smartcities.jpeg?raw=true" width="350"/>
 </div>
