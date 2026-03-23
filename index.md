@@ -2,6 +2,29 @@
 
 ---
 
+### The Contested Future of a Hyperconnected Neighborhood - Queens Community District 1
+***Urban Systems, Cornell Tech — Fall 2025***
+<br>
+<div style="text-align: justify">
+Analyzed the urban dynamics of Queens Community District 1 (Astoria/Long Island City), one of NYC's most transit-rich neighborhoods,  examining how its proximity to Manhattan creates a paradox: exceptional connectivity that simultaneously drives gentrification, displacement, and informal commuter patterns like park-and-ride behavior. The analysis is structured around a Transit-Induced Displacement Cycle framework, combining spatial analysis, open data, and storytelling to reveal how infrastructure and affordability pressures interact at the neighborhood level.
+
+</div>
+<br>
+
+**Technical skills:** ArcGIS StoryMap, Spatial Analysis, GeoJSON, Open Data (NYC), Data Visualization.
+<br>
+**Impact:** Featured in the *Concrete and Code* Substack by Cornell Tech's Urban Tech Hub.
+
+<div align="center">
+  <img src="images/queens_affordability.png" width="80%" />
+</div>
+<br>
+
+- [ArcGIS StoryMap](https://storymaps.arcgis.com/stories/fd1dd6c2bdb644898194bdefba17ec16)
+- [Concrete and Code — 5 Surprising Truths About How NYC Really Works](https://concreteandcode.substack.com/p/5-surprising-truths-about-how-nyc?triedRedirect=true)
+
+---
+
 ### Mapping Poverty in Lima with Machine Learning and Satellite Imagery 
 
 <div style="text-align: justify">Developed a novel methodology combining satellite imagery analysis with AI to map socioeconomic patterns across Lima Metropolitana. I developed and implemented a custom computer vision pipeline using Convolutional Neural Network (CNNs) for feature extraction and SVM classifiers. This project established a new framework for AI-driven urban analysis and efficient remote sensing data processing through Python-based geoprocessing tools.</div>
