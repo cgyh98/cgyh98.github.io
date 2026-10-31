@@ -15,7 +15,7 @@ window.CONTENT = {
   location: 'new york, ny',
 
   // Leave `src` empty to show a placeholder instead.
-  photo: { src: 'images/me.jpg', alt: 'Gabriela smiling in front of a window, with the East River and Manhattan at sunset behind her', caption: 'greetings from roosevelt island :)' },
+  photo: { src: 'images/me.jpg', alt: 'Gabriela smiling in front of a window, with the East River and Manhattan at sunset behind her', caption: 'at roosevelt island :)' },
 
   // The home page links to these detail pages.
   pages: [
