@@ -107,12 +107,14 @@
     const meta = h('p', { class: 'context' }, t.where + (t.when ? ` · ${t.when}` : ''));
     if (t.link) { meta.append(document.createTextNode(' · ')); meta.append(link(t.link.label, t.link.href)); }
     li.append(meta);
+    if (t.description) li.append(h('p', {}, t.description));
     el.append(li);
   }));
 
   fill('[data-edu]', (el) => C.education.forEach((e) => {
     const li = h('li');
     li.append(h('span', { class: 'school' }, e.school), h('span', { class: 'when' }, e.when), h('span', { class: 'degree' }, e.degree));
+    if (e.activities) li.append(h('span', { class: 'degree' }, e.activities));
     el.append(li);
   }));
 

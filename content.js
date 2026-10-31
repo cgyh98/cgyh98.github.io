@@ -31,7 +31,7 @@ window.CONTENT = {
     work: { label: 'work', subtitle: 'timeline of my work experience' },
     education: { label: 'education', subtitle: 'my educational background' },
     projects: { label: 'projects', subtitle: 'my projects in ML × geospatial and tinkering' },
-    talks: { label: 'talks', subtitle: 'talks, panels and teaching' },
+    talks: { label: 'talks', subtitle: 'talks, panels, teaching and events' },
     about: { label: 'about', subtitle: 'get to know me better :)' },
   },
 
@@ -165,6 +165,9 @@ window.CONTENT = {
   // Newest first.
   talks: [
     { title: 'Co-author of the AI for Transportation tutorial and teaching assistant', where: 'Climate Change AI Virtual Summer School, for 5,000+ participants', when: '2026' },
+    { title: 'Co-organizer, Keeping It Urban', where: 'Student-run tech summit during NYC Open Data Week, New York', when: 'Mar 2026',
+      description: 'Led operations and volunteer coordination for a summit featuring robotics and AI interfaces, for 150+ attendees.',
+      link: { label: 'keepingiturban.com', href: 'https://keepingiturban.com/' } },
     { title: 'Panelist, “Promoting Female Participation in STEM”', where: 'Women in Data Science (WiDS), Universidad del Pacífico, Lima', when: '2021 & 2024' },
     { title: 'Represented Flipp’s AI team', where: 'Spatial Data Science Conference, hosted by CARTO, New York', when: '2022' },
     { title: '“How AI & Remote Sensing Data Can Be Used to Fight Poverty”', where: 'Women in Data Science (WiDS) with Aporta, Lima', when: 'Mar 2020' },
@@ -173,7 +176,8 @@ window.CONTENT = {
   ],
 
   education: [
-    { school: 'Cornell Tech, Cornell University', degree: 'MS in Applied Info Science & Info Systems, Urban Tech. Merit Scholarship', when: 'May 2027' },
+    { school: 'Cornell Tech, Cornell University', degree: 'MS in Applied Info Science & Info Systems, Urban Tech. Merit Scholarship', when: 'May 2027',
+      activities: 'Urban Tech Program Representative, <a href="https://ctsg.tech.cornell.edu/#/members">Cornell Tech Student Government</a>' },
     { school: 'Universidad del Pacífico', degree: 'BS, Information Engineering. Academic Excellence Award', when: 'Aug 2020' },
   ],
 
