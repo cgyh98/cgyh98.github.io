@@ -54,7 +54,8 @@ window.CONTENT = {
 
   about: [
     'I like to start with the why. I use data and AI to solve complex, interdisciplinary problems, picking what actually works over what’s newest. I’m more of a connector than a specialist, and I care most when the work has social impact.',
-    'I grew up in Peru, close to Andean and Amazonian communities, which gave me a deep respect for nature and its people. Curiosity took me to Andorra, Canada, and now New York, where startups, art, and community all collide, and I love being in the middle of it. My path hasn’t been a straight line, and I’m proud of that.',
+    'I grew up in Peru, close to the Andes and the Amazon, with a deep respect for these ecosystems and the communities that call them home. As an engineer, that pushes me to build technology responsibly.',
+    'Curiosity took me to Andorra, Canada, and now New York, where entrepreneurs, artists, and diverse communities from every field all collide, and I love being in the middle of it. My path hasn’t been linear, and I’m happy about that.',
   ],
 
   // All projects, newest first.
@@ -189,7 +190,7 @@ window.CONTENT = {
 
   next: {
     heading: 'next, after May 2027',
-    text: 'After I graduate, I want to join an early-stage startup working on a problem I care about. The problem matters as much as the role. I do my best work when I believe in what we’re building. The spaces that excite me most:',
+    text: 'I want to join a team working on a problem I care about, ideally at a startup. The problem matters as much as the role. I do my best work when I believe in what we’re building. The spaces that excite me most:',
     items: [
       'Urban tech: cities, mobility, and the built environment',
       'Design and creative tech: AI that supports the creative process',
@@ -199,7 +200,7 @@ window.CONTENT = {
 
   outside: [
     'I love spending time with my loved ones, in nature, and around art and music, which is a big part of my life. Design is close to my heart, and visualization is where my artistic and data sides meet.',
-    'I value diversity in people, cultures, industries, and points of view, and I’m always picking up something new. My hobbies keep changing – lately it’s collage and photography.',
+    'I value diversity in people, cultures, industries, and points of view, and I’m always picking up something new. Right now, I’m getting back into photography.',
   ],
 
   connect: 'if you’re building something in urban tech, creative tech or on-device AI, or just want to talk about cities, maps or art, i’d love to hear from you.',
