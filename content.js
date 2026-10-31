@@ -200,7 +200,7 @@ window.CONTENT = {
 
   outside: [
     'I love spending time with my loved ones, in nature, and around art and music, which is a big part of my life. Design is close to my heart, and visualization is where my artistic and data sides meet.',
-    'I value diversity in people, cultures, industries, and points of view, and I’m always picking up something new. My current hobby is photography.',
+    'I value diversity in people, cultures, industries, and points of view, and I’m always picking up something new. Right now, I’m getting back into photography.',
   ],
 
   connect: 'if you’re building something in urban tech, creative tech or on-device AI, or just want to talk about cities, maps or art, i’d love to hear from you.',
