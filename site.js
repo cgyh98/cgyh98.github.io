@@ -107,6 +107,7 @@
     const meta = h('p', { class: 'context' }, t.where + (t.when ? ` · ${t.when}` : ''));
     if (t.link) { meta.append(document.createTextNode(' · ')); meta.append(link(t.link.label, t.link.href)); }
     li.append(meta);
+    if (t.description) li.append(h('p', {}, t.description));
     el.append(li);
   }));
 
