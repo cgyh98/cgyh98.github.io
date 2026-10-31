@@ -166,7 +166,7 @@ window.CONTENT = {
   talks: [
     { title: 'Co-author of the AI for Transportation tutorial and teaching assistant', where: 'Climate Change AI Virtual Summer School, for 5,000+ participants', when: '2026' },
     { title: 'Co-organizer, Keeping It Urban', where: 'Student-run tech summit during NYC Open Data Week, New York', when: 'Mar 2026',
-      description: 'Led operations and volunteer coordination for a summit featuring robotics and AI interfaces, for 200+ attendees.',
+      description: 'Led operations and volunteer coordination for a summit featuring robotics and AI interfaces, for 150+ attendees.',
       link: { label: 'keepingiturban.com', href: 'https://keepingiturban.com/' } },
     { title: 'Panelist, “Promoting Female Participation in STEM”', where: 'Women in Data Science (WiDS), Universidad del Pacífico, Lima', when: '2021 & 2024' },
     { title: 'Represented Flipp’s AI team', where: 'Spatial Data Science Conference, hosted by CARTO, New York', when: '2022' },
