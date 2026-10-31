@@ -114,6 +114,7 @@
   fill('[data-edu]', (el) => C.education.forEach((e) => {
     const li = h('li');
     li.append(h('span', { class: 'school' }, e.school), h('span', { class: 'when' }, e.when), h('span', { class: 'degree' }, e.degree));
+    if (e.activities) li.append(h('span', { class: 'degree' }, e.activities));
     el.append(li);
   }));
 

@@ -176,7 +176,8 @@ window.CONTENT = {
   ],
 
   education: [
-    { school: 'Cornell Tech, Cornell University', degree: 'MS in Applied Info Science & Info Systems, Urban Tech. Merit Scholarship', when: 'May 2027' },
+    { school: 'Cornell Tech, Cornell University', degree: 'MS in Applied Info Science & Info Systems, Urban Tech. Merit Scholarship', when: 'May 2027',
+      activities: 'Urban Tech Program Representative, <a href="https://ctsg.tech.cornell.edu/#/members">Cornell Tech Student Government</a>' },
     { school: 'Universidad del Pacífico', degree: 'BS, Information Engineering. Academic Excellence Award', when: 'Aug 2020' },
   ],
 
