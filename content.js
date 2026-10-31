@@ -55,6 +55,7 @@ window.CONTENT = {
   about: [
     'I like to start with the why. I use data and AI to solve complex, interdisciplinary problems, picking what actually works over what’s newest. I’m more of a connector than a specialist, and I care most when the work has social impact.',
     'I grew up in Arequipa, Peru, close to Andean and Amazonian communities, which gave me a deep respect for nature and its people. Curiosity took me to Andorra, Canada, and now New York, where startups, art, and community all collide, and I love being in the middle of it. My path hasn’t been a straight line, and I’m proud of that.',
+    'And yes, Yaulli is my last name, but my full last name is Yaulli (my dad’s family name) Herrera (my mom’s family name).',
   ],
 
   // All projects, newest first.
