@@ -54,7 +54,7 @@ window.CONTENT = {
 
   about: [
     'I like to start with the why. I use data and AI to solve complex, interdisciplinary problems, picking what actually works over what’s newest. I’m more of a connector than a specialist, and I care most when the work has social impact.',
-    'I grew up in Arequipa, Peru, close to Andean and Amazonian communities, which gave me a deep respect for nature and its people. Curiosity took me to Andorra, Canada, and now New York, where startups, art, and community all collide, and I love being in the middle of it. My path hasn’t been a straight line, and I’m proud of that.',
+    'I grew up in Peru, close to Andean and Amazonian communities, which gave me a deep respect for nature and its people. Curiosity took me to Andorra, Canada, and now New York, where startups, art, and community all collide, and I love being in the middle of it. My path hasn’t been a straight line, and I’m proud of that.',
   ],
 
   // All projects, newest first.
@@ -178,14 +178,14 @@ window.CONTENT = {
   ],
 
   currently: [
-    'finishing my MS at Cornell Tech (May 2027)',
+    'finishing my master’s at Cornell Tech (May 2027)',
     'leading the Latin American & Hispanic Association and organizing creative tech events at <a href="https://joinvibelab.com/">VibeLab</a>',
     'building a procedural <a href="https://bioluminescent-ocean.web.app/#world">bioluminescent ocean</a>',
   ],
 
   next: {
     heading: 'next, after May 2027',
-    text: 'After I graduate, I want to join an early-stage startup working on a problem I genuinely care about. The problem matters as much as the role. I do my best work when I believe in what we’re building. The spaces that excite me most:',
+    text: 'After I graduate, I want to join an early-stage startup working on a problem I care about. The problem matters as much as the role. I do my best work when I believe in what we’re building. The spaces that excite me most:',
     items: [
       'Urban tech: cities, mobility, and the built environment',
       'Design and creative tech: AI that supports the creative process',
@@ -194,7 +194,7 @@ window.CONTENT = {
   },
 
   outside: [
-    'I love spending time with the people I care about, in nature, and around art and music, which is a big part of my life. Design is close to my heart, and visualization is where my artistic and data sides meet.',
+    'I love spending time with my loved ones, in nature, and around art and music, which is a big part of my life. Design is close to my heart, and visualization is where my artistic and data sides meet.',
     'I value diversity in people, cultures, industries, and points of view, and I’m always picking up something new. My hobbies keep changing – lately it’s collage and photography.',
   ],
 
