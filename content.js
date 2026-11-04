@@ -10,7 +10,7 @@ window.CONTENT = {
   github: 'https://github.com/cgyh98',
 
   intro: [
-    'i’m an AI/ML engineer and graduate student studying Urban Tech at Cornell Tech. currently building <a href="https://allpa-labs.web.app/">Allpa</a>, while learning how technology can shape cities, creativity, and the way we live.',
+    'i’m an AI/ML engineer and graduate student studying Urban Tech at Cornell Tech. Currently building <a href="https://allpa-labs.web.app/">Allpa</a>, while learning how technology can shape cities, creativity, and the way we live.',
   ],
   location: 'new york, ny',
 
@@ -133,7 +133,7 @@ window.CONTENT = {
       org: 'Allpa', role: 'Co-founder & CTO', place: 'New York', when: '2026–present',
       summary: 'From empty site to first design, in a day, for global developers building in emerging markets.',
       details: [
-        'I lead engineering and AI, alongside my co-founder Hazel Villena. <a href="https://allpa-labs.web.app/">allpa-labs.web.app</a>',
+        'I lead engineering and AI at <a href="https://allpa-labs.web.app/">Allpa</a>, alongside my co-founder Hazel Villena.',
       ],
     },
     {
@@ -202,6 +202,7 @@ window.CONTENT = {
   ],
 
   currently: [
+    'building <a href="https://allpa-labs.web.app/">Allpa</a>, a startup for developers building in emerging markets, with my co-founder Hazel Villena',
     'finishing my master’s at Cornell Tech (May 2027)',
     'leading the Latin American & Hispanic Association and organizing creative tech events at <a href="https://joinvibelab.com/">VibeLab</a>',
     'building a procedural <a href="https://bioluminescent-ocean.web.app/#world">bioluminescent ocean</a>',
