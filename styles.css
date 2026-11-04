@@ -201,6 +201,35 @@ section > p, .prose p { margin: 0 0 .7em; text-wrap: pretty; }
   background: radial-gradient(ellipse at 55% 45%, var(--ochre) 0 22%, transparent 24% 52%, var(--ochre) 54% 62%, transparent 64%);
 }
 
+/* Link previews: a small card above the link on hover. */
+.entries .links a[data-video]::before { content: '▶ '; font-size: .7em; vertical-align: .1em; }
+.peek {
+  position: absolute; z-index: 20; width: 260px; padding: 5px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(38, 36, 34, .14);
+  transform: translateY(calc(-100% + 6px)); opacity: 0; pointer-events: none;
+  transition: opacity .15s ease, transform .15s ease;
+}
+.peek.is-on { opacity: 1; transform: translateY(-100%); }
+.peek img { display: block; width: 100%; max-height: 220px; object-fit: cover; border-radius: 4px; }
+.peek.is-video img { aspect-ratio: 16 / 9; }
+.peek.is-video::after {
+  content: '▶'; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(253, 252, 250, .92); color: var(--ink); font-size: 14px; padding-left: 3px; box-sizing: border-box;
+}
+
+/* Pop-up viewer for videos and photos. */
+.viewer { border: 0; padding: 0; background: transparent; max-width: min(960px, 92vw); width: 100%; overflow: visible; }
+.viewer::backdrop { background: rgba(38, 36, 34, .78); }
+.viewer-stage.is-video { aspect-ratio: 16 / 9; }
+.viewer-stage iframe { width: 100%; height: 100%; border: 0; border-radius: 6px; display: block; background: #000; }
+.viewer-stage img { display: block; max-width: 100%; max-height: 86vh; margin: 0 auto; border-radius: 6px; }
+.viewer-close {
+  position: absolute; top: -40px; right: 0; border: 0; background: none; cursor: pointer;
+  color: var(--paper); font: 32px/1 var(--font);
+}
+
 /* Footer */
 .footer { margin-top: 48px; padding-top: 20px; padding-bottom: 32px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85em; }
 .footer p { margin: 0; }

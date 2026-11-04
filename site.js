@@ -25,10 +25,26 @@
     const ul = h('ul', { class: 'links' });
     for (const l of links) {
       const li = h('li');
-      li.append(link(l.label, l.href));
+      const a = link(l.label, l.href || l.image);
+      if (l.preview || l.image) a.dataset.preview = l.preview || l.image;
+      const video = videoEmbed(l.href);
+      if (video) a.dataset.video = video;
+      if (l.image) a.dataset.image = l.image;
+      li.append(a);
       ul.append(li);
     }
     return ul;
+  }
+
+  // YouTube ("youtube.com/watch?v=ID", "youtu.be/ID?t=90") or a shared Google
+  // Drive video ("drive.google.com/file/d/ID/...") -> an embed URL, else null.
+  function videoEmbed(href) {
+    const drive = href && href.match(/drive\.google\.com\/file\/d\/([\w-]+)/);
+    if (drive) return `https://drive.google.com/file/d/${drive[1]}/preview`;
+    const m = href && href.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]{11})/);
+    if (!m) return null;
+    const t = href.match(/[?&]t=(\d+)/);
+    return `https://www.youtube-nocookie.com/embed/${m[1]}?autoplay=1&rel=0${t ? `&start=${t[1]}` : ''}`;
   }
   // Runs `fn` with the container if the current page has it.
   const fill = (sel, fn) => { const el = $(sel); if (el) fn(el); };
@@ -82,6 +98,49 @@
     return li;
   }
   fill('[data-projects]', (el) => C.projects.forEach((p) => el.append(projectItem(p))));
+
+  // Hovering a link with a preview shows a small image card above it.
+  // Only on devices with a real pointer; on phones the link just works as a link.
+  if (window.matchMedia('(hover: hover)').matches) {
+    const peek = h('div', { class: 'peek', 'aria-hidden': 'true' });
+    const img = h('img', { alt: '' });
+    peek.append(img);
+    document.body.append(peek);
+    $$('a[data-preview]').forEach((a) => {
+      a.addEventListener('mouseenter', () => {
+        img.src = a.dataset.preview;
+        peek.classList.toggle('is-video', !!a.dataset.video);
+        const r = a.getBoundingClientRect();
+        const w = 260;
+        const left = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), window.innerWidth - w - 8);
+        peek.style.left = `${left + window.scrollX}px`;
+        peek.style.top = `${r.top + window.scrollY - 10}px`;
+        peek.classList.add('is-on');
+      });
+      a.addEventListener('mouseleave', () => peek.classList.remove('is-on'));
+    });
+  }
+
+  // Videos and photos open in a pop-up on the page instead of a new tab.
+  const viewer = h('dialog', { class: 'viewer' });
+  const close = h('button', { class: 'viewer-close', 'aria-label': 'Close' }, '×');
+  const stage = h('div', { class: 'viewer-stage' });
+  viewer.append(close, stage);
+  document.body.append(viewer);
+  close.addEventListener('click', () => viewer.close());
+  viewer.addEventListener('click', (e) => { if (e.target === viewer) viewer.close(); });
+  viewer.addEventListener('close', () => { stage.innerHTML = ''; });
+  $$('a[data-video], a[data-image]').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault();
+      stage.className = `viewer-stage ${a.dataset.video ? 'is-video' : 'is-image'}`;
+      stage.append(a.dataset.video
+        ? h('iframe', { src: a.dataset.video, title: a.textContent, allow: 'autoplay; encrypted-media; picture-in-picture', allowfullscreen: '' })
+        : h('img', { src: a.dataset.image, alt: a.textContent }));
+      viewer.showModal();
+    });
+  });
 
   fill('[data-work]', (el) => C.work.forEach((w) => {
     const d = h('details', { id: w.id });
