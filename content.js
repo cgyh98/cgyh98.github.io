@@ -10,7 +10,7 @@ window.CONTENT = {
   github: 'https://github.com/cgyh98',
 
   intro: [
-    'i’m an AI/ML engineer and graduate student studying Urban Tech at Cornell Tech. currently building Allpa, while learning how technology can shape cities, creativity, and the way we live.',
+    'i’m an AI/ML engineer and graduate student studying Urban Tech at Cornell Tech. currently building <a href="https://allpa-labs.web.app/">Allpa</a>, while learning how technology can shape cities, creativity, and the way we live.',
   ],
   location: 'new york, ny',
 
@@ -30,18 +30,18 @@ window.CONTENT = {
   headers: {
     work: { label: 'work', subtitle: 'timeline of my work experience' },
     education: { label: 'education', subtitle: 'my educational background' },
-    projects: { label: 'projects', subtitle: 'my projects in ML × geospatial and tinkering' },
+    projects: { label: 'projects', subtitle: 'my projects in ML × geospatial, plus things I built for fun' },
     talks: { label: 'talks', subtitle: 'talks, panels, teaching and events' },
     about: { label: 'about', subtitle: 'get to know me better :)' },
   },
 
-  // The map on the projects page. `lived` is drawn as one route, in order;
-  // `trips` branch off from wherever I lived at the time.
+  // The map on the projects page. `lived` is my path, drawn as one route in order;
+  // `trips` branch off from wherever I was based at the time.
   map: {
     lived: [
       { name: 'Arequipa', coords: [-71.54, -16.41], note: 'grew up' },
       { name: 'Lima', coords: [-77.04, -12.05], note: '2015', href: 'projects.html#p-lima' },
-      { name: 'Toronto', coords: [-79.38, 43.65], note: '2022', href: 'work.html#w-flipp' },
+      { name: 'Toronto', coords: [-79.38, 43.65], note: 'Flipp, 2022', href: 'work.html#w-flipp' },
       { name: 'New York', coords: [-73.96, 40.75], note: 'now', href: 'projects.html#p-queens', now: true },
     ],
     trips: [
@@ -58,13 +58,15 @@ window.CONTENT = {
     'Curiosity took me to Andorra, Canada, and now New York, where entrepreneurs, artists, and diverse communities from every field all collide, and I love being in the middle of it. My path hasn’t been linear, and I’m happy about that.',
   ],
 
-  // All projects, newest first.
+  // Core projects, newest first, then things I built for fun at the end.
+  // A link with `preview` shows that image on hover. YouTube/Drive videos and `image`
+  // links open in a pop-up on the page instead of leaving the site.
   projects: [
     {
       place: 'New York, NY',
-      title: 'Sewing machine × video game controller',
-      context: 'Designing with E-waste, Cornell Tech · Spring 2026',
-      description: 'A sewing machine you control with a video game controller.',
+      title: 'Assessing NYC catch basins from street-level imagery',
+      context: 'Prof. Wendy Ju’s lab, Cornell Tech · 2026, ongoing',
+      description: 'Using AI on Cyclomedia street-level imagery to speed up assessment and maintenance of NYC catch basins, with input from DEP.',
     },
     {
       id: 'p-queens', place: 'New York, NY',
@@ -73,8 +75,8 @@ window.CONTENT = {
       description: 'Queens Community District 1 (Astoria and Long Island City) is one of NYC’s most transit-rich neighborhoods. That connectivity also drives gentrification, displacement and informal commuting like park-and-ride. I built the analysis around a “transit-induced displacement cycle”, combining spatial analysis, NYC open data and storytelling.',
       outcome: 'It was featured in <em>Concrete and Code</em>, the Substack of Cornell Tech’s Urban Tech Hub.',
       links: [
-        { label: 'StoryMap', href: 'https://storymaps.arcgis.com/stories/fd1dd6c2bdb644898194bdefba17ec16' },
-        { label: 'Concrete and Code feature', href: 'https://concreteandcode.substack.com/p/5-surprising-truths-about-how-nyc' },
+        { label: 'StoryMap', href: 'https://storymaps.arcgis.com/stories/fd1dd6c2bdb644898194bdefba17ec16', preview: 'images/previews/queens-storymap.jpg' },
+        { label: 'Concrete and Code feature', href: 'https://concreteandcode.substack.com/p/5-surprising-truths-about-how-nyc', preview: 'images/previews/queens-substack.jpg' },
       ],
     },
     {
@@ -84,8 +86,8 @@ window.CONTENT = {
       description: 'I was selected for the 40-participant in-person program at Mila. In one week, our interdisciplinary team built a prototype pipeline that combines satellite imagery with ML to estimate glacier surface area in the Peruvian Andes year by year.',
       outcome: 'We also animated projections for the Quelccaya glacier.',
       links: [
-        { label: 'CCAI recap', href: 'https://www.climatechange.ai/blog/2024-12-04-summer-school-24-in-person' },
-        { label: 'Quelccaya projections', href: 'https://www.youtube.com/watch?v=gDrTO2PZ7T0' },
+        { label: 'CCAI recap', href: 'https://www.climatechange.ai/blog/2024-12-04-summer-school-24-in-person', preview: 'images/previews/ccai-recap.jpg' },
+        { label: 'Quelccaya projections', href: 'https://www.youtube.com/watch?v=gDrTO2PZ7T0', preview: 'images/previews/yt-gDrTO2PZ7T0.jpg' },
       ],
     },
     {
@@ -95,7 +97,7 @@ window.CONTENT = {
       description: 'With the India Applied AI Research Center (INAI), our team built interactive deck.gl visualizations that combine collision-avoidance alerts with hospital and school data, so stakeholders can spot risk-prone areas.',
       links: [
         { label: 'Blog post', href: 'https://www.fruitpunch.ai/blog/ai-and-visualisations-a-data-driven-all-rounded-approach-for-road-safety' },
-        { label: 'Final presentation', href: 'https://youtu.be/FD9A25ZLFUQ?t=2237' },
+        { label: 'Final presentation', href: 'https://youtu.be/FD9A25ZLFUQ?t=2237', preview: 'images/previews/yt-FD9A25ZLFUQ.jpg' },
       ],
     },
     {
@@ -104,21 +106,38 @@ window.CONTENT = {
       context: 'AI Latam SumMIT 2020, Boston',
       description: 'A scalable methodology that combines satellite imagery with AI to map socioeconomic patterns across Lima Metropolitana. I developed the computer vision pipeline, with CNNs for feature extraction and SVM classifiers.',
       outcome: 'I presented it as a poster at the AI Latam SumMIT 2020.',
-      links: [{ label: 'Poster (PDF)', href: 'pdf/AIsuMIT_Poster_A1.pdf' }],
+      links: [{ label: 'Poster (PDF)', href: 'pdf/AIsuMIT_Poster_A1.pdf', preview: 'images/previews/lima-poster.jpg' }],
     },
     {
       id: 'p-andorra', place: 'Andorra la Vella, Andorra',
       title: 'Tourist mobility in Andorra',
       context: 'Living Lab Andorra, with MIT Media Lab · 2018',
       description: 'I built tourist trajectories from RNC (Radio Network Controller) data and used sub-trajectory clustering to find the most frequent tourist routes.',
-      links: [{ label: 'A full day of movement (video)', href: 'https://www.youtube.com/watch?v=T52diroghDc' }],
+      links: [{ label: 'A full day of movement (video)', href: 'https://www.youtube.com/watch?v=T52diroghDc', preview: 'images/previews/yt-T52diroghDc.jpg' }],
+    },
+    {
+      place: 'New York, NY',
+      title: 'Sewing machine × video game controller',
+      context: 'Designing with E-waste, Cornell Tech · Spring 2026',
+      description: 'A sewing machine you control with a video game controller.',
+      links: [
+        { label: 'Photo', image: 'images/projects/sewing-machine.jpg', preview: 'images/previews/sewing-machine.jpg' },
+        { label: 'Video', href: 'https://drive.google.com/file/d/1kz4IEUFZ5o661xXcFClZXwTC65jkYAOb/view', preview: 'images/previews/sewing-machine.jpg' },
+      ],
     },
   ],
 
   // One line shows by default; `details` appear when the row is opened.
   work: [
     {
-      org: 'House IQ', role: 'AI Engineering Intern', place: 'New York', when: 'May–Aug 2026',
+      org: 'Allpa', role: 'Co-founder & CTO', place: 'New York', when: '2026–present',
+      summary: 'From empty site to first design, in a day, for global developers building in emerging markets.',
+      details: [
+        'I lead engineering and AI, alongside my co-founder Hazel Villena. <a href="https://allpa-labs.web.app/">allpa-labs.web.app</a>',
+      ],
+    },
+    {
+      org: 'House IQ', role: 'AI Engineering Intern', place: 'New York', when: 'May–Sep 2026',
       summary: 'Evals and fixes for a LangGraph cost-estimation agent.',
       details: [
         'Designed accuracy evaluations in Langfuse and benchmarked the agent against leading LLMs. Found and fixed a silent web-search fallback failure affecting over 90% of cases with unreliable primary data.',
@@ -134,12 +153,12 @@ window.CONTENT = {
     {
       id: 'w-flipp',
       org: 'Flipp', role: 'ML Scientist I & II', place: 'Toronto', when: 'Jul 2022–Aug 2025',
-      summary: 'Multimodal LLM pipelines and evaluation, search personalization for 5M+ users, and the company’s first reinforcement learning solution.',
+      summary: 'Multimodal LLM pipelines and evaluation, search personalization for 5M+ users, and the company’s first reinforcement learning proof of concept.',
       details: [
         'Built AutoTag, a multimodal LLM pipeline that extracts structured metadata from text and images. It replaced an OCR-limited BERT system and processes 100M+ items a day.',
         'Co-developed a production embedding service for hybrid search and item matching, and AutoJudge, an LLM-based evaluation system for pipeline QA.',
         'Personalized search for 5M+ users, improving the average position at first click by 3%. Designed and ran A/B tests across 2M+ users.',
-        'Implemented a multi-armed contextual bandit for content recommendation, the company’s first reinforcement learning solution.',
+        'Implemented a multi-armed contextual bandit for content recommendation, the company’s first reinforcement learning proof of concept.',
       ],
     },
     {
